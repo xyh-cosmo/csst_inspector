@@ -1,0 +1,49 @@
+\documentclass[nofootinbib,twocolumn,superscriptaddress]{revtex4}
+
+\usepackage{bm}	% Bold math symbols
+\usepackage{ulem} % package for \sout and etc. ..
+\usepackage{bookmark} % To display bookmark on PDF file's left side ...
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{boldline} % create bold lines in tables
+\usepackage{color}
+\usepackage[flushleft]{threeparttable}
+
+\hypersetup{
+pdftitle={Inspecting SurveySim results},
+pdfauthor={Youhua Xu},
+}
+
+\newcommand{\RT}[1]{\textcolor{red}{#1}}
+\newcommand{\MT}[1]{\textcolor{magenta}{#1}}
+\newcommand{\figscale}{1}  % adjust figure scales
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{Inspecting SurveySim results}
+
+\author{Youhua Xu}
+\email{yhxu@nao.cas.cn}
+\affiliation{NAOC}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+This note is all about testing details.
+\end{abstract}
+
+\maketitle
+
+
+\section{Introduction: Purpose!}
+
+
+
+\appendix
+\section{Hypotheses tests}
+
+
+
+\end{document}

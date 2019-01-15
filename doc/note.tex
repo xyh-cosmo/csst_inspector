@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt,twocolumn,hyperref]{ctexart}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{bookmark}
+\usepackage{textcomp} %提供\textdegree
+\usepackage[text={6.5in,9in},centering]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{ulem}
+\usepackage{bm}
+\usepackage{booktabs} % referred from <Latex_Cookbook>
+
+\ctexset{today=big}
+
+
+% 一些用于给字体增加颜色的命令
+\newcommand{\RT}[1]{\textcolor{red}{#1}}
+\newcommand{\BT}[1]{\textcolor{blue}{#1}}
+\newcommand{\GT}[1]{\textcolor{green}{#1}}
+\newcommand{\MT}[1]{\textcolor{magenta}{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{检验巡天编排模拟结果}
+
+\author{许优华~\footnote{\url{yhxu@nao.cas.cn}}}
+
+%\email{yhxu@nao.cas.cn}
+%\affiliation{国家天文台}
+
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\abstract{
+本文记录了对“巡天编排模拟”软件的结果的检验。
+}
+
+\section{科学需求对观测条件的要求}
+% 为了顺利完成所制定的科学目标，望远镜所获取的观测数据的质量需要达到一定的要求。这些具体的要求可以
+% 利用Fisher矩阵等工具进行估计，而这样的估计中通常需要假设“已获取”了某种数量和信噪比的观测数据。
+% 最终的科学产出可以看作是“数量”与“信噪比”的一个函数，因而可以根据科学目标确定出“数量”与“信噪比”
+% 的最低要求。从这些要求出发，可以进一步反推出在什么样的条件下望远镜可以顺利地完成任务。简单说来，
+% 就是要排除掉所有不利于观测的情况，使得数据的“信噪比”达到要求，同时又可以获得足够多的观测数据。
+
+根据科学目标反推观测数据所需要达到的要求，以及观测过程中所需要满足的各项条件。
+
+\subsection{CSS-OS的主要科学目标}
+
+\section{各种影响因素的计算和条件判断}
+影响观测的主要因素有以下几项：1）各种光学污染，例如太阳光、月球反射光等进入望远镜镜筒后会降低成像
+的质量；2）能源因素，如果望远镜长时间处于一种不合理的观测姿态，太阳能帆板无法充分发电，会导致电池
+的电量持续下降，进而导致望远镜无法正常工作。
+
+\subsection{太阳}
+
+\subsection{地球}
+
+\subsection{月球遮挡、反光}
+
+
+\end{document}
